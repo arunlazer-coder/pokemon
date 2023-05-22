@@ -1,10 +1,8 @@
-import { PokemonReducerInt } from "./reducer";
 
 export const Card = ({
   dispatch,
   data,
 }: {
-  state: PokemonReducerInt;
   dispatch: (data:any)=>void;
   data: {name:string,id:number,type:string[]};
 }) => {

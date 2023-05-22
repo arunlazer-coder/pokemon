@@ -47,8 +47,8 @@ export const List = () => {
         setLimit={(addOn = 2000) => setLimit(addOn || limit + 200)}
       />
       <div className="grid gap-4 lg:grid-cols-3 mt-5 max-h-512 overflow-auto">
-        {listData.map((data: {name:string}) => {
-          return <Card key={data.name} {...{ state, dispatch, data }} />;
+        {listData.map((data: {name:string,id:number,type:string[]}) => {
+          return <Card key={data.name} {...{ dispatch, data }} />;
         })}
       </div>
       {

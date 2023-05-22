@@ -83,7 +83,7 @@ export const Pagination = ({
         </ul>
       </nav>
       <select
-        onChange={(e:{target:{value:number}}) =>
+        onChange={(e:any) =>
           dispatch({ pagination: { ...INIT_STATE.pagination,  pageSize: e.target.value } })
         }
       >

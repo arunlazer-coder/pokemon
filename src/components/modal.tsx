@@ -11,7 +11,7 @@ export const Modal = ({
   state:PokemonReducerInt
 }) => {
   const {selectedPoke} = state
-  const handleClose = (e: {target:{id:string}}) => {
+  const handleClose = (e: any) => {
     if (e.target.id === "modalParent") onClose();
   };
 
@@ -45,7 +45,7 @@ export const Modal = ({
                   <img className="h-90pr" src={`https://img.pokemondb.net/artwork/large/${selectedPoke.name}.jpg`} />
                 </div>
             </div>
-            <div className={`w-full lg:w-2/4   drop-shadow-lg ${isArray(selectedPoke?.type) ? selectedPoke?.type[0]:""}`}>
+            <div className={`w-full lg:w-2/4   drop-shadow-lg ${isArray(selectedPoke?.type) ? (selectedPoke?.type as string[])[0]:""}`}>
               <StatTable {...{state}}/>
             </div>
         </div>
