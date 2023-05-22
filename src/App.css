@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.ml-20pr{
+  margin-left: 20%;
+}
+
+.bug{
+  background-color:#A8B820
+}
+
+.dark{
+  background-color:#0E0E0E
+}
+
+.dragon{
+  background-color:#B8A0F8
+}
+
+.electric{
+  background-color:#F8F878
+}
+
+.fairy{
+  background-color:#F8A0E0
+}
+
+.fighting{
+  background-color:#903028
+}
+
+.fire{
+  background-color:#D7593E
+}
+
+.flying{
+  background-color:#A890F0
+}
+
+.ghost{
+  background-color:#705997
+}
+
+.grass{
+  background-color:#78C850
+}
+
+.ground{
+  background-color:#E0C068
+}
+
+.ice{
+  background-color:#98D8D8
+}
+
+.normal{
+  background-color:#B0B084
+}
+
+.poison{
+  background-color:#D880B8
+}
+
+.psychic{
+  background-color:#F8C0B0
+}
+
+.rock{
+  background-color:#B8A038
+}
+
+.shadow{
+  background-color:#943994
+}
+
+.steel{
+  background-color:#B8B8D0
+}
+
+.unknown{
+  background-color:#68A090
+}
+
+.water{
+  background-color:#6890F0
+}
+
+
+.bug-{
+  color:#A8B820
+}
+
+.dark-{
+  color:#0E0E0E
+}
+
+.dragon-{
+  color:#B8A0F8
+}
+
+.electric-{
+  color:#F8F878
+}
+
+.fairy-{
+  color:#F8A0E0
+}
+
+.fighting-{
+  color:#903028
+}
+
+.fire-{
+  color:#D7593E
+}
+
+.flying-{
+  color:#A890F0
+}
+
+.ghost-{
+  color:#705997
+}
+
+.grass-{
+  color:#78C850
+}
+
+.ground-{
+  color:#E0C068
+}
+
+.ice-{
+  color:#98D8D8
+}
+
+.normal-{
+  color:#B0B084
+}
+
+.poison-{
+  color:#D880B8
+}
+
+.psychic-{
+  color:#F8C0B0
+}
+
+.rock-{
+  color:#B8A038
+}
+
+.shadow-{
+  color:#943994
+}
+
+.steel-{
+  color:#B8B8D0
+}
+
+.unknown-{
+  color:#68A090
+}
+
+.water-{
+  color:#6890F0
+}
+
+.text-border{
+  text-shadow:
+  -0.5px -0.5px 0 #000,  
+   0.5px -0.5px 0 #000,
+   -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000
+}
+
+.max-h-512{
+  max-height: 512px !important;
+}
+.min-h-90pr{
+  min-height: 90% !important;
+}
+
+.bg-gray{
+  background-color: gray !important ;
+}
+
+.mrc-9{
+  margin-right:9% !important
+}
+
+.mlc-40{
+  margin-left:40%
+}
